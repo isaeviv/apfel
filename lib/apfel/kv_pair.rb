@@ -8,7 +8,7 @@ module Apfel
     end
 
     def key
-     line.key.strip unless line.key.nil?
+     line.key
     end
 
     def value
