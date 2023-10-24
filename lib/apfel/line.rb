@@ -6,7 +6,7 @@ module Apfel
     def initialize(line)
       @content = line
       @in_comment = false
-      raise "Line does not end in ;" unless valid?
+      raise "Line with '#{key}' key does not end in ;" unless valid?
     end
 
     def empty_line?
